@@ -19,8 +19,8 @@ module.exports = {
   rules: {
     "react/prop-types": ["off"],
     indent: ["error", 2],
-    "linebreak-style": ["error", "unix"],
-    quotes: ["error", "single"],
+    "linebreak-style": ["error", "windows"],
+    quotes: ["error", "double"],
     semi: ["error", "always"],
     "no-console": ["warn", { allow: ["info", "error"] }],
   },
