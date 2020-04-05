@@ -4,5 +4,10 @@
   "description": "Advanced React",
   "main": "lib/server.js",
   "repository": "https://github.com/76484/ps-advanced-react",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel-eslint": "10.1.0",
+    "eslint": "6.8.0",
+    "eslint-plugin-react": "7.19.0"
+  }
 }
