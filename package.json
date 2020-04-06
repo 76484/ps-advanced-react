@@ -47,10 +47,12 @@
     "@babel/preset-env": "7.9.0",
     "@babel/preset-react": "7.9.4",
     "babel-loader": "8.1.0",
+    "core-js": "3.6.4",
     "ejs": "3.0.2",
     "express": "4.17.1",
     "react": "16.13.1",
     "react-dom": "16.13.1",
+    "regenerator-runtime": "0.13.5",
     "webpack": "4.42.1"
   }
 }
