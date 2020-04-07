@@ -6,7 +6,7 @@
   "repository": "https://github.com/76484/ps-advanced-react",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon --exec babel-node lib/server.js",
+    "dev": "set NODE_PATH=./lib&& nodemon --exec babel-node lib/server.js",
     "test": "jest --watch",
     "webpack": "webpack -wd"
   },

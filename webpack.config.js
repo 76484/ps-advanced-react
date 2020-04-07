@@ -9,4 +9,7 @@ module.exports = {
   module: {
     rules: [{ test: /\.js$/, use: "babel-loader", exclude: /node_modules/ }],
   },
+  resolve: {
+    modules: [path.resolve("./lib"), path.resolve("./node_modules")],
+  },
 };
