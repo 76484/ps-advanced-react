@@ -18,7 +18,18 @@ module.exports = {
     filename: "[name].js",
   },
   module: {
-    rules: [{ test: /\.js$/, use: "babel-loader", exclude: /node_modules/ }],
+    rules: [
+      {
+        test: /\.js$/,
+        use: {
+          loader: "babel-loader",
+          options: {
+            presets: ["@babel/preset-react", "@babel/preset-env"],
+          },
+        },
+        exclude: /node_modules/,
+      },
+    ],
   },
   resolve: {
     modules: [path.resolve("./lib"), path.resolve("./node_modules")],
